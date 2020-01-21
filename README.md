@@ -25,7 +25,13 @@ npm start
 
 <https://redux.js.org/introduction/getting-started/>
 
-## Related repos
+<https://redux.js.org/introduction/motivation/>
+
+<https://redux.js.org/introduction/core-concepts/>
+
+<https://redux.js.org/introduction/three-principles/>
+
+## Related Repos
 
 <https://github.com/hchiam/learning-reactjs>
 
