@@ -17,6 +17,10 @@ Don't forget to `store.subscribe(render)`!
 
 (You can generate a [dependency graph](https://github.com/hchiam/learning-dependency-cruiser) with `bash show_dep_graph.sh`.)
 
+## Helpful example of adding data to redux state container
+
+<https://github.com/hchiam/react-jexcel-redux/commit/90db044627780ed6262f5e29bb61a24390a4d4b3>
+
 ## Examples (via CLI or online sandboxes)
 
 <https://redux.js.org/introduction/examples/>
