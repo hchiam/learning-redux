@@ -13,6 +13,8 @@ Just one of the things I'm learning. <https://github.com/hchiam/learning>
 
 `yarn add redux` or `npm install --save redux`
 
+Don't forget to `store.subscribe(render)`!
+
 (You can generate a [dependency graph](https://github.com/hchiam/learning-dependency-cruiser) with `bash show_dep_graph.sh`.)
 
 ## Examples (via CLI or online sandboxes)
@@ -34,6 +36,8 @@ npm start
 <https://redux.js.org/introduction/core-concepts/>
 
 <https://redux.js.org/introduction/three-principles/>
+
+Cartoon guide to Redux: <https://code-cartoons.com/a-cartoon-intro-to-redux-3afb775501a6>
 
 ## Related Repos
 
