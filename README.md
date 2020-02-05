@@ -13,7 +13,7 @@ Just one of the things I'm learning. <https://github.com/hchiam/learning>
 
 `yarn add redux` or `npm install --save redux`
 
-Key things to remember: `const reducer`, `store = Redux.createStore(reducer)`, `store.dispatch({type: SOME_ACTION})`, `reducer = (state, action) => {switch (action.type) {...}}`
+Key things to remember: `const reducer`, `store = Redux.createStore(combinedReducer)`, `store.dispatch({type: SOME_ACTION})`, `reducer = (state, action) => {switch (action.type) {...}}`
 
 You can `store.subscribe(() => { /* some function that runs as a "listener" upon actions */ })`
 
