@@ -2,7 +2,7 @@
 
 Just one of the things I'm learning. <https://github.com/hchiam/learning>
 
-**_TL;DR_**: Redux is a predictable state container. My mnemonic of key things to remember: **SDAR** = Store -> Dispatch -> Action -> Reducer.
+**_TL;DR_**: Redux is a predictable state container. My mnemonic of key things to remember: **SDAR** = Store -> Dispatch -> Action -> Reducer. You can get a quick review [on freeCodeCamp](https://www.freecodecamp.org/learn/front-end-libraries/redux/write-a-counter-with-redux).
 
 * It can let you debug with ["time travel"](https://github.com/reduxjs/redux-devtools).
 * State can only change via **_emitting/dispatching an action_**, which are specified with pure **_reducers_**.
