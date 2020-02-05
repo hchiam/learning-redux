@@ -46,7 +46,7 @@ You can `store.subscribe(() => { /* some function that runs as a "listener" upon
   - **prop-types** -> type checking of state data to be stored
 
 
-- `redux-thunk` middleware for asynchronous actions. (To apply it, use `createStore(combinedReducer, Redux.applyMiddleware(...))`.)
+- `redux-thunk` middleware for asynchronous actions. (To apply it, use `createStore(combinedReducer, Redux.applyMiddleware(...))`.) For more info / to quickly try it out: <https://www.freecodecamp.org/learn/front-end-libraries/redux/use-middleware-to-handle-asynchronous-actions>
 
 ## Examples (via CLI or online sandboxes)
 
