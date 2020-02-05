@@ -23,6 +23,8 @@ You can `store.subscribe(() => { /* some function that runs as a "listener" upon
 
 <https://github.com/hchiam/learning-redux/tree/master/counter-example>
 
+Another reference of combining Redux with React: <https://www.freecodecamp.org/learn/front-end-libraries/react-and-redux/use-provider-to-connect-redux-to-react>
+
 ## Helpful example of adding data to redux state container
 
 <https://github.com/hchiam/react-jexcel-redux/commit/90db044627780ed6262f5e29bb61a24390a4d4b3>
