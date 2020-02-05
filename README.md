@@ -5,7 +5,7 @@ Just one of the things I'm learning. <https://github.com/hchiam/learning>
 **_TL;DR_**: Redux is a predictable state container.
 
 * It can let you debug with ["time travel"](https://github.com/reduxjs/redux-devtools).
-* State can only change via **_emitting an action_**, which are specified with pure **_reducers_**.
+* State can only change via **_emitting/dispatching an action_**, which are specified with pure **_reducers_**.
 * Three principles:
   1. single source of truth `store.getState()`
   2. state is read-only `store.dispatch({...})`
