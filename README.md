@@ -2,7 +2,7 @@
 
 Just one of the things I'm learning. <https://github.com/hchiam/learning>
 
-**_TL;DR_**: Redux is a predictable state container.
+**_TL;DR_**: Redux is a predictable state container. My mnemonic of key things to remember: **SDAR** = Store -> Dispatch -> Action -> Reducer.
 
 * It can let you debug with ["time travel"](https://github.com/reduxjs/redux-devtools).
 * State can only change via **_emitting/dispatching an action_**, which are specified with pure **_reducers_**.
@@ -12,6 +12,8 @@ Just one of the things I'm learning. <https://github.com/hchiam/learning>
   3. make changes with pure functions `reducer = (state, action) => modified(state)`
 
 `yarn add redux` or `npm install --save redux`
+
+Key things to remember: `const reducer`, `store = Redux.createStore(reducer)`, `store.dispatch({type: SOME_ACTION})`, `reducer = (state, action) => {switch (action.type) {...}}`
 
 Don't forget to `store.subscribe(render)`!
 
