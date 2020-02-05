@@ -27,7 +27,6 @@ You can `store.subscribe(() => { /* some function that runs as a "listener" upon
 
 <https://github.com/hchiam/react-jexcel-redux/commit/90db044627780ed6262f5e29bb61a24390a4d4b3>
 
-
 - **action** -> "abstraction": do some more fancy stuff here before calling store.dispatch here instead of inside a component’s custom methods (note: store.dispatch instead of this.props.dispatch)
 - **reducer** -> update state
 - **combineReducers** -> combine different reducers into one state container in index.js when you import rootReducer from '../reducers' in files in /store folder
@@ -46,6 +45,8 @@ You can `store.subscribe(() => { /* some function that runs as a "listener" upon
   - **constants/actionTypes** -> “enum” to label actions meaningfully
   - **prop-types** -> type checking of state data to be stored
 
+
+- `redux-thunk` middleware for asynchronous actions
 
 ## Examples (via CLI or online sandboxes)
 
