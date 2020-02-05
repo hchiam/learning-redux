@@ -15,7 +15,7 @@ Just one of the things I'm learning. <https://github.com/hchiam/learning>
 
 Key things to remember: `const reducer`, `store = Redux.createStore(reducer)`, `store.dispatch({type: SOME_ACTION})`, `reducer = (state, action) => {switch (action.type) {...}}`
 
-Don't forget to `store.subscribe(render)`!
+You can `store.subscribe(() => { /* some function that runs as a "listener" upon actions */ })`
 
 (You can generate a [dependency graph](https://github.com/hchiam/learning-dependency-cruiser) with `bash show_dep_graph.sh`.)
 
