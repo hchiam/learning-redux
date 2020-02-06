@@ -23,7 +23,13 @@ You can `store.subscribe(() => { /* some function that runs as a "listener" upon
 
 <https://github.com/hchiam/learning-redux/tree/master/counter-example>
 
-## Interactive references of combining Redux with React:
+## Simple example of updating state in a sibling component
+
+<https://github.com/hchiam/code-inspiration/commit/53d13d23cbb7fa13b9c95f108be8d2949072db5a#diff-71bf5fe8b337e70fdec5d142f4881d9eR6>
+
+(Added `redux` without adding `react-redux`.)
+
+## Interactive references of combining Redux with React
 
 - `<Provider store={store>...</Provider>`: <https://www.freecodecamp.org/learn/front-end-libraries/react-and-redux/use-provider-to-connect-redux-to-react>
 - `const Container = connect`: <https://www.freecodecamp.org/learn/front-end-libraries/react-and-redux/connect-redux-to-the-messages-app>
