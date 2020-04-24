@@ -72,7 +72,11 @@ npm start
 
 ## Extra notes
 
-In development, you can use [redux-immutable-state-invariant](https://github.com/leoasis/redux-immutable-state-invariant) to programmatically warn/remind developers about immutability when you're coding, or use [Immer](https://github.com/hchiam/learning-immer) to enforce it.
+- In development, you can use [redux-immutable-state-invariant](https://github.com/leoasis/redux-immutable-state-invariant) to programmatically warn/remind developers about immutability when you're coding, or use [Immer](https://github.com/hchiam/learning-immer) to enforce it.
+- It might seem silly to use string constants, but [there's a few good reasons for larger projects](https://stackoverflow.com/questions/34965856/what-is-the-point-of-the-constants-in-redux/37054518#37054518)
+- You can do "reducer composition".
+- All reducers are called on each action dispatch, but only the relevant handler(s) will handle it. Reducers together form a complete picture of the store if you make each reducer handle a different logical part of the app.
+- An action can be handled by multiple reducers. A reducer can handle multiple actions.
 
 ## Reference
 
