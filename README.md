@@ -70,6 +70,10 @@ npm install
 npm start
 ```
 
+## Extra notes
+
+In development, you can use [redux-immutable-state-invariant](https://github.com/leoasis/redux-immutable-state-invariant) to programmatically warn/remind developers about immutability when you're coding, or use [Immer](https://github.com/hchiam/learning-immer) to enforce it.
+
 ## Reference
 
 <https://redux.js.org/introduction/getting-started/>
