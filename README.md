@@ -90,6 +90,16 @@ npm start
 
 Cartoon guide to Redux: <https://code-cartoons.com/a-cartoon-intro-to-redux-3afb775501a6>
 
+## Further reading: "5 types of state" (for React apps)
+
+<http://jamesknelson.com/5-types-react-application-state>
+
+1. Data
+2. Communication
+3. Control
+4. Session
+5. Location
+
 ## Related Repos
 
 <https://github.com/hchiam/learning-reactjs>
